@@ -24,7 +24,7 @@ const ProviderCard = () => {
 
 const Provide = () => {
   return (
-    <section className='bg-Secondary h-[650px] mt-10 overflow-hidden '>
+    <section className='bg-Secondary h-[650px] mt-10 overflow-hidden font-Poppins '>
       <div className='w-[850px] mx-[20%]'>
         <ProviderCard />
       </div>
