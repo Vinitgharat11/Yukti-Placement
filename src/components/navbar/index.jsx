@@ -7,7 +7,9 @@ const Navbar = (link) => {
     <nav className='bg-Primary'>
       <div className='flex justify-evenly pt-6 '>
         <div className=''>
+          <Link to="/" >
           <p className='font-Poppins font-bold text-[25px] text-Dark '>Logo</p>
+          </Link>
         </div>
          <div className=' flex gap-7 text-Dark sm:hidden'>
           {NavLinks.map(item => (

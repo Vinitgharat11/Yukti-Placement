@@ -1,6 +1,7 @@
 import React from 'react'
 import { Teacher } from '../../assets/images'
 import { career } from '../../Constant'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 const Opportunies = () => {
   return (
@@ -12,11 +13,13 @@ const Opportunies = () => {
         </div>
         <div className='flex flex-wrap justify-center mt-10 gap-10'>
                 {career.map(item =>(
-            <div className='w-[350px] font-Poppins '>
+                  <div className='w-[350px] font-Poppins '>
+              <AnimationOnScroll animateIn="animate__fadeIn" delay={200} >
                 <img className='w-64  rounded-[13px] ' src={item.img} alt="" />
                 <p className='mt-6'>{item.Title}</p>
                 <p className='text-[12px] font-extralight'>{item.des}</p>
                 <button className='mt-5 bg-Dark text-white rounded-[10px] w-44 text-[16px]'>view vacancies</button>
+                </AnimationOnScroll>
             </div> 
                 ))}
         </div>

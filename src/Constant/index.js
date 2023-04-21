@@ -118,3 +118,39 @@ export const Jobs =[
         Title:'Software developer'
     },
 ]
+
+export const Testemoniesdata =[
+    {
+        title:"exmaple1",
+        des:"des1",
+        color:"bg-Primary",
+        float:"float-left"
+
+    },
+    {
+        title:"exmaple1",
+        des:"des1",
+        color:"bg-Secondary",
+        float:"float-right"
+
+
+
+    },
+    {
+        title:"exmaple1",
+        des:"des1",
+        color:"bg-Primary1",
+        float:"float-left"
+
+
+    },
+    {
+        title:"exmaple1",
+        des:"des1",
+        color:"bg-Secondary1",
+        float:"float-right"
+
+
+    },
+
+]
