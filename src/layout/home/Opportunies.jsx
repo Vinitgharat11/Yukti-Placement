@@ -5,7 +5,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 const Opportunies = () => {
   return (
-    <section>
+    <section className='sm:p-10'>
       <div >
         <div className='flex flex-wrap justify-center mt-10'>
             <p className='w-80 pt-6 text-[29px] font-Poppins'>Opportunies for you </p>

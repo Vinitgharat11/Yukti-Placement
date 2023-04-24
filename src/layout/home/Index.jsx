@@ -5,7 +5,6 @@ import Stats from './Stats'
 import Features from './Provide'
 import HeroSection from './HeroSection'
 import Opportunies from './Opportunies'
-import Contact from './Contact'
 import Location from './Location'
 const HomeLayout = () => {
     return (

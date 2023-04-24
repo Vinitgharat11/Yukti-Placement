@@ -22,11 +22,11 @@ const Cards = () => {
 
 const Categories = () => {
     return (
-        <section>
-            <div className='pt-28 ml-56 font-Poppins text-[23px] sm:ml-16 '>
+        <section className='flex'>
+            <div className='pt-28 ml-56 font-Poppins text-[23px] sm:p-0 sm:ml-0 sm:pt-10 sm:w-0 '>
                 <p className='font-light'> Find Jobs By <span className='UnderLine text-[35px] font-semibold relative'>Categories</span> </p>
             </div>
-            <div className='w-full h-[550px] p-10'>
+            <div className='w-full h-[550px] p-10 sm:py-56'>
                 <Cards />
             </div>
         </section>
